@@ -1,0 +1,107 @@
+@charset 'UTF-8';
+.ydw-register {
+  margin: 0 auto;
+  width: 7.5rem;
+  min-width: 320px;
+  background-color: #fff;
+}
+.ydw-register .ydw-register-head {
+  position: relative;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  max-width: 7.5rem;
+  height: .92rem;
+  background-color: #ff9900;
+  color: #fff;
+}
+.ydw-register .ydw-register-head .back-l {
+  position: absolute;
+  left: .4rem;
+  top: .26rem;
+  width: .28rem;
+  height: .4rem;
+}
+.ydw-register .ydw-register-head .back-l .back {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/ydwShop/nav_icon_back@2x.png) no-repeat;
+  background-size: .28rem .4rem;
+  color: #fff;
+}
+.ydw-register .ydw-register-head .ydw-register-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .42rem;
+}
+.ydw-register .ydw-register-head .ydw-register-title-r {
+  position: absolute;
+  right: .28rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: .42rem;
+}
+.ydw-register .ydw-register-head .ydw-register-title-r a {
+  color: #fff;
+}
+.ydw-register .ydw-register-main {
+  width: 100%;
+}
+.ydw-register .ydw-register-main .ydw-register-main-form {
+  padding-top: 1.2rem;
+  padding: 1.2rem .74rem 0 .74rem;
+  width: 100%;
+  color: #333;
+}
+.ydw-register .ydw-register-main .ydw-register-main-form .ydw-register-p {
+  width: 100%;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  font-size: .32rem;
+}
+.ydw-register .ydw-register-main .ydw-register-main-form .agree-txt {
+  font-size: .28rem;
+  color: #666;
+  vertical-align: middle;
+}
+.ydw-register .ydw-register-main .ydw-register-main-form .agree-txt .agree {
+  margin-top: -0.06rem;
+  display: inline-block;
+  margin-right: .2rem;
+  width: .3rem;
+  height: .3rem;
+  border: 1px solid #666;
+  vertical-align: middle;
+}
+.ydw-register .ydw-register-main .ydw-register-main-form .next-btn {
+  margin-top: .3rem;
+}
+.ydw-register .ydw-register-main .ydw-register-main-form .next-btn .next {
+  width: 100%;
+  height: 1rem;
+  background-color: #ff9900;
+  outline: none;
+  border: 1px solid #ff9900;
+  border-radius: .1rem;
+  font-size: .32rem;
+  color: #fff;
+}
+.ydw-register .ydw-register-main .ydw-register-main-form .b-b {
+  border-bottom: 1px solid #8f8f8f;
+}
+.ydw-register .ydw-register-main .ydw-register-main-form .txt {
+  padding-left: .4rem;
+  width: 4rem;
+  height: .62rem;
+  font-size: .38rem;
+}
+.ydw-register .ydw-register-main .ydw-register-main-form .code {
+  width: 3.6rem;
+}
+.ydw-register .ydw-register-main .ydw-register-main-form .getMsg {
+  color: #fe0041;
+  font-size: .28rem;
+}

@@ -1,0 +1,166 @@
+@charset "UTF-8";
+.w {
+  margin: 0 auto;
+  width: 7.14rem;
+}
+.ydw {
+  margin: 0 auto;
+  width: 7.5rem;
+  min-width: 320px;
+}
+.ydw .ydw-head {
+  height: 4.72rem;
+  width: 100%;
+}
+.ydw .ydw-head .ydw-head-top {
+  height: .92rem;
+  padding-top: .18rem;
+  width: 100%;
+  background: url('../img/indexNav.png') no-repeat;
+}
+.ydw .ydw-head .ydw-head-top .ydw-head-top-search {
+  position: relative;
+  margin: 0 auto;
+  width: 5.16rem;
+  height: .6rem;
+}
+.ydw .ydw-head .ydw-head-top .ydw-head-top-search .ydw-head-top-search-inp {
+  display: block;
+  padding-left: .24rem;
+  width: 100%;
+  height: .6rem;
+  border: 1px solid #ffb648;
+  border-radius: .14rem;
+  background-color: #fed8e2;
+  font-size: .28rem;
+  color: #a09e9b;
+}
+.ydw .ydw-head .ydw-head-top .ydw-head-top-search .search-ico {
+  position: absolute;
+  top: .1rem;
+  right: .22rem;
+  width: .4rem;
+  height: .4rem;
+  background: url(../img/ydwIndex/search.png) no-repeat;
+  background-size: .4rem .4rem;
+}
+.ydw .ydw-head .ydw-head-bottom {
+  width: 100%;
+  height: 3.8rem;
+  background: url('../img/indexBanner.png') no-repeat;
+  background-size: 100%;
+}
+.ydw .ydw-main {
+  padding-bottom: 1rem;
+  width: 100%;
+  background-color: #fafafa;
+}
+.ydw .ydw-main .ydw-main-icon {
+  display: inline-block;
+  width: .28rem;
+  height: .4rem;
+  vertical-align: middle;
+}
+.ydw .ydw-main .ydw-main-title {
+  display: inline-block;
+  margin-left: .18rem;
+  font-size: .28rem;
+  color: #333;
+  vertical-align: middle;
+}
+.ydw .ydw-main .ydw-main-bottom {
+  padding-top: .24rem;
+  padding-left: .18rem;
+  width: 100%;
+  overflow-x: scroll;
+}
+.ydw .ydw-main .ydw-main-bottom ul {
+  width: 13.6rem;
+}
+.ydw .ydw-main .ydw-main-bottom ul .ydw-main-bottom-con {
+  float: left;
+  margin-right: .2rem;
+  padding: .2rem;
+  width: 3.20rem;
+  height: 4.68rem;
+  border: .02rem solid #eee;
+  background-color: #fff;
+}
+.ydw .ydw-main .ydw-main-bottom ul .ydw-main-bottom-con a {
+  display: block;
+  margin: 0 auto;
+  width: 1.64rem;
+  height: 2.63rem;
+}
+.ydw .ydw-main .ydw-main-bottom ul .ydw-main-bottom-con a img {
+  width: 100%;
+  height: 100%;
+}
+.ydw .ydw-main .ydw-main-hot {
+  padding-top: .22rem;
+  height: 5.66rem;
+}
+.ydw .ydw-main .ydw-main-hot .ydw-main-hot-top {
+  height: .48rem;
+}
+.ydw .ydw-main .ydw-main-hot .ydw-main-hot-top .hot-icon {
+  background: url('../img/ydwIndex/hot.png') no-repeat;
+  background-size: .28rem .4rem;
+}
+.ydw .ydw-main .ydw-main-hot .ydw-main-hot-bottom ul .ydw-main-hot-bottom-con .hot-price {
+  margin-top: .2rem;
+  margin-bottom: .1rem;
+  padding: 0 .1rem;
+  height: .5rem;
+  line-height: .5rem;
+}
+.ydw .ydw-main .ydw-main-hot .ydw-main-hot-bottom ul .ydw-main-hot-bottom-con .hot-price span:nth-of-type(1) {
+  float: left;
+  font-size: .28rem;
+  color: #e60012;
+}
+.ydw .ydw-main .ydw-main-hot .ydw-main-hot-bottom ul .ydw-main-hot-bottom-con .hot-price span:nth-of-type(2) {
+  float: right;
+  font-size: .23rem;
+  color: #666;
+  text-decoration: line-through;
+}
+.ydw .ydw-main .ydw-main-hot .ydw-main-hot-bottom ul .ydw-main-hot-bottom-con .hot-title {
+  font-size: .28rem;
+  color: #666;
+}
+.ydw .ydw-main .ydw-main-pro {
+  padding-bottom: .16rem;
+}
+.ydw .ydw-main .ydw-main-pro .ydw-main-pro-list {
+  padding-top: .22rem;
+  height: 5.66rem;
+}
+.ydw .ydw-main .ydw-main-pro .ydw-main-pro-list .ydw-main-pro-list-top {
+  height: .48rem;
+}
+.ydw .ydw-main .ydw-main-pro .ydw-main-pro-list .ydw-main-pro-list-top .pro-icon {
+  background: url('../img/ydwIndex/baby.png') no-repeat;
+  background-size: .28rem .4rem;
+}
+.ydw .ydw-main .ydw-main-pro .ydw-main-pro-list .ydw-main-pro-list-bottom ul .ydw-main-bottom-con .pro-title {
+  margin-top: .2rem;
+  margin-bottom: .1rem;
+  font-size: .28rem;
+  color: #666;
+}
+.ydw .ydw-main .ydw-main-pro .ydw-main-pro-list .ydw-main-pro-list-bottom ul .ydw-main-bottom-con .pro-price {
+  padding: 0 .1rem;
+  height: .5rem;
+  line-height: .5rem;
+}
+.ydw .ydw-main .ydw-main-pro .ydw-main-pro-list .ydw-main-pro-list-bottom ul .ydw-main-bottom-con .pro-price span:nth-of-type(1) {
+  float: left;
+  font-size: .28rem;
+  color: #ffa002;
+}
+.ydw .ydw-main .ydw-main-pro .ydw-main-pro-list .ydw-main-pro-list-bottom ul .ydw-main-bottom-con .pro-price span:nth-of-type(2) {
+  float: right;
+  font-size: .23rem;
+  color: #666;
+}

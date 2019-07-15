@@ -1,0 +1,265 @@
+@charset 'UTF-8';
+body {
+  background-color: #fafafa;
+}
+.ydw-shopCar {
+  margin: 0 auto;
+  width: 7.5rem;
+  min-width: 320px;
+  padding-bottom: 2.1rem;
+  background-color: #fafafa;
+}
+.ydw-shopCar .ydw-shopCar-head {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  max-width: 7.5rem;
+  height: .92rem;
+  padding-top: .18rem;
+  background-color: #ff9900;
+  color: #fff;
+}
+.ydw-shopCar .ydw-shopCar-head .back {
+  position: absolute;
+  left: .4rem;
+  top: .26rem;
+  width: .28rem;
+  height: .4rem;
+  background: url(../img/ydwShop/nav_icon_back@2x.png) no-repeat;
+  background-size: .28rem .4rem;
+  color: #fff;
+}
+.ydw-shopCar .ydw-shopCar-head .ydw-shopCar-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .42rem;
+}
+.ydw-shopCar .ydw-shopCar-main {
+  padding-top: .92rem;
+  width: 100%;
+  max-width: 7.5rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-blank {
+  position: fixed;
+  padding-top: .92rem;
+  width: 100%;
+  max-width: 7.5rem;
+  height: 100%;
+  background-color: #fafafa;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-blank .ydw-shopCar-tips {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-blank .ydw-shopCar-tips .tips-icon {
+  display: inline-block;
+  margin-bottom: .2rem;
+  width: .9rem;
+  height: .9rem;
+  background: url('../img/ydwShop/shopping_wu.png') no-repeat;
+  background-size: .9rem .9rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-blank .ydw-shopCar-tips .tips-title {
+  font-size: .32rem;
+  color: #333333;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list {
+  width: 100%;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list {
+  width: 100%;
+  height: 3.16rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-title {
+  padding-left: .38rem;
+  height: .78rem;
+  width: 100%;
+  line-height: .78rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-title .pro-list-title-icon {
+  display: inline-block;
+  margin-right: .26rem;
+  height: .36rem;
+  width: .36rem;
+  background: url('../img/ydwShop/store.png') no-repeat;
+  background-size: .36rem .36rem;
+  vertical-align: middle;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-title .pro-list-title-txt {
+  font-size: .28rem;
+  color: #999;
+  vertical-align: middle;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con {
+  position: relative;
+  padding-left: .36rem;
+  width: 100%;
+  height: 2.38rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul {
+  width: 100%;
+  height: 100%;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul li {
+  float: left;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col1 {
+  margin-top: 1rem;
+  margin-right: .2rem;
+  width: .4rem;
+  height: .4rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col1 img {
+  width: 100%;
+  height: 100%;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col2 {
+  margin-top: .4rem;
+  margin-right: .2rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col2 a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col2 a img {
+  width: 100%;
+  height: 100%;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col3 {
+  position: relative;
+  margin-top: .4rem;
+  width: 2.8rem;
+  height: 1.6rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col3 .spe {
+  position: absolute;
+  top: .44rem;
+  right: .78rem;
+  font-size: .28rem;
+  color: #999;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col3 .col3-t {
+  width: 100%;
+  font-size: .32rem;
+  color: #333;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col3 .col3-b {
+  margin-top: .3rem;
+  width: 100%;
+  height: .44rem;
+  border: .02rem solid #ccc;
+  border-radius: .1rem;
+  text-align: center;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col3 .col3-b .calDown {
+  float: left;
+  width: .93rem;
+  height: 100%;
+  border-right: .02rem solid #ccc;
+  vertical-align: top;
+  font-size: .32rem;
+  color: #666;
+  line-height: .34rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col3 .col3-b .calNum {
+  float: left;
+  width: .93rem;
+  height: 100%;
+  border-right: .02rem solid #ccc;
+  font-size: .32rem;
+  color: #666;
+  text-align: center;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col3 .col3-b .calUp {
+  float: left;
+  width: .9rem;
+  height: 100%;
+  vertical-align: top;
+  font-size: .32rem;
+  color: #666;
+  line-height: .34rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con ul .col4 {
+  margin-left: .44rem;
+  margin-top: 1rem;
+  font-size: .32rem;
+  color: #000;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-pro .ydw-shopCar-pro-list .pro-list-con .del {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  width: .96rem;
+  background-color: #ff9900;
+  color: #fff;
+  font-size: .32rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-edit {
+  position: fixed;
+  bottom: 1.02rem;
+  z-index: 99;
+  width: 100%;
+  max-width: 7.5rem;
+  height: 1.16rem;
+  background-color: #fff;
+  border-top: .02rem solid #eee;
+  text-align: center;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-edit .ydw-shopCar-edit-l {
+  float: left;
+  width: 2.6rem;
+  height: 100%;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-edit .ydw-shopCar-edit-l .edit {
+  float: left;
+  padding-top: .18rem;
+  width: 1.3rem;
+  height: 100%;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-edit .ydw-shopCar-edit-l .edit .edit-ico {
+  display: inline-block;
+  width: .42rem;
+  height: .42rem;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-edit .ydw-shopCar-edit-l .edit .edit-ico img {
+  width: 100%;
+  height: 100%;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-edit .ydw-shopCar-edit-l .edit p {
+  margin-top: .08rem;
+  font-size: .28rem;
+  color: #666;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-edit .ydw-shopCar-coun-price {
+  float: left;
+  padding-top: .28rem;
+  margin-left: .1rem;
+  width: 2.46rem;
+  height: 1.16rem;
+  font-size: .24rem;
+  color: #999;
+}
+.ydw-shopCar .ydw-shopCar-main .ydw-shopCar-main-list .ydw-shopCar-edit .set-acc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2.32rem;
+  height: 100%;
+  line-height: 100%;
+  background-color: #ff5500;
+  font-size: .36rem;
+  text-align: center;
+  color: #fff;
+}
