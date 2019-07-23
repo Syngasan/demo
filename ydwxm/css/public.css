@@ -1,4 +1,7 @@
 @charset 'UTF-8';
+.current {
+  color: #fb9b00 !important;
+}
 .ydw-footer {
   position: fixed;
   bottom: 0;
@@ -28,11 +31,33 @@
   display: inline-block;
   height: .4rem;
   width: .4rem;
+  background-size: .4rem .4rem;
 }
 .ydw-footer .ydw-footer-nav .ydw-footer-nav-list a .ydw-footer-nav-title {
   font-size: .24rem;
   color: #333;
 }
-.ydw-footer .ydw-footer-nav .ydw-footer-nav-list a .current {
-  color: #fb9b00;
+.ydw-footer .ydw-footer-nav .ydw-footer-nav-list:nth-child(1) .ydw-footer-nav-ico {
+  background-image: url('../img/ydwIndex/tab_home_nor.png');
+}
+.ydw-footer .ydw-footer-nav .ydw-footer-nav-list:nth-child(2) .ydw-footer-nav-ico {
+  background-image: url('../img/ydwIndex/tab_menu_nor.png');
+}
+.ydw-footer .ydw-footer-nav .ydw-footer-nav-list:nth-child(3) .ydw-footer-nav-ico {
+  background-image: url('../img/ydwIndex/tab_shopping_nor.png');
+}
+.ydw-footer .ydw-footer-nav .ydw-footer-nav-list:nth-child(4) .ydw-footer-nav-ico {
+  background-image: url('../img/ydwIndex/tab_me_nor.png');
+}
+.ydw-footer .ydw-footer-nav .index_icon {
+  background-image: url('../img/ydwIndex/tab_home_hig.png') !important;
+}
+.ydw-footer .ydw-footer-nav .class_icon {
+  background-image: url(../img/ydwIndex/tab_menu_hig.png) !important;
+}
+.ydw-footer .ydw-footer-nav .shop_icon {
+  background-image: url(../img/ydwIndex/tab_shopping_hig.png) !important;
+}
+.ydw-footer .ydw-footer-nav .my_icon {
+  background-image: url(../img/ydwIndex/tab_me_hig.png) !important;
 }

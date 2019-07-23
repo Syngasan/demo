@@ -1,0 +1,333 @@
+@charset 'UTF-8';
+// 主题色
+@mc: #ff9900;
+
+.ydw-shopCar {
+    margin: 0 auto;
+    width: 7.5rem;
+    min-width: 320px;
+
+    background-color: #fafafa;
+    height: 100%;
+
+    // 头部
+    .ydw-shopCar-head {
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        width: 100%;
+        max-width: 7.5rem;
+        height: .92rem;
+        padding-top: .18rem;
+        background-color: @mc;
+        color: #fff;
+
+        .back {
+            position: absolute;
+            left: .4rem;
+            top: .26rem;
+            width: .28rem;
+            height: .4rem;
+            background: url(../img/ydwShop/nav_icon_back@2x.png) no-repeat;
+            background-size: .28rem .4rem;
+            color: #fff;
+        }
+
+        .ydw-shopCar-title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: .42rem;
+        }
+    }
+
+    // 主体
+    .ydw-shopCar-main {
+        padding-top: .92rem;
+        width: 100%;
+        max-width: 7.5rem;
+
+        // 提示
+        .ydw-shopCar-main-blank {
+            position: fixed;
+            padding-top: .92rem;
+            width: 100%;
+            max-width: 7.5rem;
+            height: 100%;
+            background-color: #fafafa;
+
+            .ydw-shopCar-tips {
+                position: absolute;
+                left: 50%;
+                top: 40%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+
+                .tips-icon {
+                    display: inline-block;
+                    margin-bottom: .2rem;
+                    width: .9rem;
+                    height: .9rem;
+                    background: url('../img/ydwShop/shopping_wu.png') no-repeat;
+                    background-size: .9rem .9rem;
+                }
+
+                .tips-title {
+                    font-size: .32rem;
+                    color: #333333;
+                }
+            }
+        }
+
+        // 购物车列表
+        .ydw-shopCar-main-list {
+
+            width: 100%;
+
+            .ydw-shopCar-pro {
+                padding-bottom: 2.1rem;
+                background-color: #fafafa;
+
+                .ydw-shopCar-pro-list {
+                    width: 100%;
+                    height: 3.16rem;
+
+
+                    .pro-list-title {
+                        padding-left: .38rem;
+                        height: .78rem;
+                        width: 100%;
+                        line-height: .78rem;
+
+                        .pro-list-title-icon {
+                            display: inline-block;
+                            margin-right: .26rem;
+                            height: .36rem;
+                            width: .36rem;
+                            background: url('../img/ydwShop/store.png') no-repeat;
+                            background-size: .36rem .36rem;
+                            vertical-align: middle;
+                        }
+
+                        .pro-list-title-txt {
+                            font-size: .28rem;
+                            color: #999;
+                            vertical-align: middle;
+                        }
+                    }
+
+                    .pro-list-con {
+                        position: relative;
+                        padding-left: .36rem;
+                        width: 100%;
+                        height: 2.38rem;
+
+                        ul {
+                            width: 100%;
+                            height: 100%;
+
+                            li {
+
+                                float: left;
+                            }
+
+                            .col1 {
+                                margin-top: 1rem;
+                                margin-right: .2rem;
+                                width: .4rem;
+                                height: .4rem;
+
+                                img {
+
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+
+                            .col2 {
+                                margin-top: .4rem;
+                                margin-right: .2rem;
+                                width: 1.6rem;
+                                height: 1.6rem;
+
+                                a {
+                                    display: inline-block;
+                                    width: 100%;
+                                    height: 100%;
+
+                                    img {
+
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+
+                            .col3 {
+                                position: relative;
+                                margin-top: .4rem;
+                                width: 2.8rem;
+                                height: 1.6rem;
+
+                                .spe {
+                                    position: absolute;
+                                    width: 1.8rem;
+                                    top: .46rem;
+                                    left: 1.4rem;
+                                    font-size: .28rem;
+                                    height: .4rem;
+                                    color: #999;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowarp;
+                                }
+
+                                .col3-t {
+                                    width: 100%;
+                                    height: .84rem;
+                                    font-size: .32rem;
+                                    color: #333;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 2;
+                                    -webkit-box-orient: vertical;
+                                }
+
+                                .col3-b {
+                                    margin-top: .3rem;
+                                    width: 100%;
+                                    height: .44rem;
+                                    border: .02rem solid #ccc;
+                                    border-radius: .1rem;
+
+                                    text-align: center;
+
+                                    .calDown {
+                                        float: left;
+                                        width: .93rem;
+                                        height: 100%;
+                                        border-right: .02rem solid #ccc;
+                                        vertical-align: top;
+                                        font-size: .32rem;
+                                        color: #666;
+                                        line-height: .34rem;
+                                    }
+
+                                    .calNum {
+                                        float: left;
+                                        width: .93rem;
+                                        height: 100%;
+                                        border-right: .02rem solid #ccc;
+                                        font-size: .32rem;
+                                        color: #666;
+                                        text-align: center;
+                                    }
+
+                                    .calUp {
+                                        float: left;
+                                        width: .9rem;
+                                        height: 100%;
+                                        vertical-align: top;
+                                        font-size: .32rem;
+                                        color: #666;
+                                        line-height: .34rem;
+                                    }
+                                }
+                            }
+
+                            .col4 {
+                                margin-left: .44rem;
+                                margin-top: 1rem;
+                                font-size: .32rem;
+                                color: #000;
+                            }
+
+                        }
+
+                        .del {
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            height: 2rem;
+                            line-height: 2rem;
+                            text-align: center;
+                            width: .96rem;
+                            background-color: @mc;
+                            color: #fff;
+                            font-size: .32rem;
+                        }
+                    }
+                }
+            }
+
+            .ydw-shopCar-edit {
+                position: fixed;
+                bottom: 1.02rem;
+                z-index: 99;
+                width: 100%;
+                max-width: 7.5rem;
+                height: 1.16rem;
+                background-color: #fff;
+                border-top: .02rem solid #eee;
+                text-align: center;
+
+                .ydw-shopCar-edit-l {
+                    float: left;
+                    width: 2.6rem;
+                    height: 100%;
+
+
+                    .edit {
+                        float: left;
+                        padding-top: .18rem;
+                        width: 1.3rem;
+                        height: 100%;
+
+                        .edit-ico {
+                            display: inline-block;
+                            width: .42rem;
+                            height: .42rem;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                        }
+
+                        p {
+                            margin-top: .08rem;
+                            font-size: .28rem;
+                            color: #666;
+                        }
+                    }
+                }
+
+                .ydw-shopCar-coun-price {
+                    float: left;
+                    padding-top: .28rem;
+                    margin-left: .1rem;
+                    width: 2.46rem;
+                    height: 1.16rem;
+                    font-size: .24rem;
+                    color: #999;
+                }
+
+                .set-acc {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 2.32rem;
+                    height: 100%;
+                    line-height: 100%;
+                    background-color: #ff5500;
+                    font-size: .36rem;
+                    text-align: center;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -10,6 +10,7 @@ body {
   margin: 0 auto;
   width: 7.5rem;
   min-width: 320px;
+  height: 100%;
 }
 .ydw-classif .ydw-head {
   position: fixed;
@@ -55,6 +56,7 @@ body {
   padding-top: .92rem;
   padding-bottom: 1rem;
   width: 100%;
+  height: 100%;
 }
 .ydw-classif .ydw-classif-main .ydw-classif-main-left {
   width: 2.34rem;

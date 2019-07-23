@@ -1,0 +1,419 @@
+@charset 'utf-8';
+.ydw-proDel {
+  margin: 0 auto;
+  width: 7.5rem;
+  min-width: 320px;
+}
+.ydw-proDel .ydw-proDel-banner {
+  position: relative;
+  width: 100%;
+  height: 5.44rem;
+  border-bottom: 1px solid #eee;
+}
+.ydw-proDel .ydw-proDel-banner .ydw-proDel-icon {
+  position: absolute;
+  z-index: 99;
+  padding-top: .12rem;
+  width: 100%;
+  top: 0;
+  height: .72rem;
+}
+.ydw-proDel .ydw-proDel-banner .ydw-proDel-icon .ydw-proDel-icon-l {
+  float: left;
+}
+.ydw-proDel .ydw-proDel-banner .ydw-proDel-icon .ydw-proDel-icon-r {
+  float: right;
+}
+.ydw-proDel .ydw-proDel-banner .ydw-proDel-icon a {
+  display: inline-block;
+}
+.ydw-proDel .ydw-proDel-banner .ydw-proDel-icon a .icon {
+  display: block;
+  width: .56rem;
+  height: .56rem;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: #b2b2b2;
+}
+.ydw-proDel .ydw-proDel-banner .ydw-proDel-icon .back {
+  margin-left: .22rem;
+  background: url('../img/ydwProDel/icon_back.png') no-repeat;
+  background-size: .16rem .26rem;
+  background-position: center;
+}
+.ydw-proDel .ydw-proDel-banner .ydw-proDel-icon .shopCar {
+  margin-right: .4rem;
+  background: url('../img/ydwProDel/icon_shopping.png') no-repeat;
+  background-size: .30rem .30rem;
+  background-position: center;
+}
+.ydw-proDel .ydw-proDel-banner .ydw-proDel-icon .more {
+  margin-right: .26rem;
+  background: url('../img/ydwProDel/icon_menu.png') no-repeat;
+  background-size: .26rem .06rem;
+  background-position: center;
+}
+.ydw-proDel .ydw-proDel-banner .ydw-proDel-banner-img {
+  width: 100%;
+  height: 100%;
+}
+.ydw-proDel .ydw-proDel-introduction {
+  padding-top: .12rem;
+  padding-left: .3rem;
+  padding-bottom: .2rem;
+  width: 100%;
+}
+.ydw-proDel .ydw-proDel-introduction .row1 .row1-l {
+  float: left;
+  width: 5.6rem;
+  font-size: .3rem;
+  color: #333;
+  line-height: .4rem;
+}
+.ydw-proDel .ydw-proDel-introduction .row1 .row1-r {
+  float: right;
+  width: .99rem;
+  height: .7rem;
+  border-left: 1px solid #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+.ydw-proDel .ydw-proDel-introduction .row1 .row1-r i {
+  display: inline-block;
+  width: .36rem;
+  height: .36rem;
+  background: url('../img/ydwProDel/收藏.png') no-repeat;
+  background-size: .36rem .36rem;
+}
+.ydw-proDel .ydw-proDel-introduction .row1 .row1-r p {
+  margin-top: .1rem;
+  color: #e71f19;
+  font-size: .16rem;
+}
+.ydw-proDel .ydw-proDel-introduction .row2 {
+  margin-top: .2rem;
+}
+.ydw-proDel .ydw-proDel-introduction .row2 .row2-l {
+  float: left;
+  width: 1.74rem;
+}
+.ydw-proDel .ydw-proDel-introduction .row2 .row2-l .curr-price {
+  font-size: .34rem;
+  color: #eb2222;
+}
+.ydw-proDel .ydw-proDel-introduction .row2 .row2-l .ori-price {
+  font-size: .24rem;
+  color: #999;
+  text-decoration: line-through;
+}
+.ydw-proDel .ydw-proDel-introduction .row2 .row2-r {
+  float: left;
+}
+.ydw-proDel .ydw-proDel-introduction .row2 .row2-r .row2-r-t {
+  margin-bottom: .1rem;
+  padding-top: .1rem;
+}
+.ydw-proDel .ydw-proDel-introduction .row2 .row2-r .row2-r-t span {
+  display: inline-block;
+  margin-right: .2rem;
+  width: .7rem;
+  height: .3rem;
+  background-color: #ff9900;
+  font-size: .2rem;
+  text-align: center;
+  line-height: .3rem;
+  color: #fff;
+  cursor: pointer;
+  vertical-align: top;
+}
+.ydw-proDel .ydw-proDel-introduction .row2 .row2-r .row2-r-b span {
+  float: left;
+  width: 1.05rem;
+  border: 0.02rem solid #ff9900;
+  background-color: #fff;
+  line-height: .3rem;
+  text-align: center;
+  margin-right: .2rem;
+  font-size: .2rem;
+  color: #ff9900;
+  vertical-align: top;
+}
+.ydw-proDel .ydw-proDel-main {
+  width: 100%;
+  border-top: .3rem solid #eee;
+  padding-bottom: .97rem;
+}
+.ydw-proDel .ydw-proDel-main .ydw-proDel-main-title {
+  padding: .1rem 1.14rem 0;
+  height: .86rem;
+  width: 100%;
+}
+.ydw-proDel .ydw-proDel-main .ydw-proDel-main-title .ydw-proDel-main-title-txt {
+  float: left;
+  padding-bottom: .06rem;
+  width: 1.5rem;
+  line-height: .46rem;
+  font-size: .26rem;
+  text-align: center;
+  color: #999;
+}
+.ydw-proDel .ydw-proDel-main .ydw-proDel-main-title .ydw-proDel-main-title-txt:nth-child(2) {
+  float: right;
+}
+.ydw-proDel .ydw-proDel-main .ydw-proDel-main-title .current {
+  color: #ff9900;
+  border-bottom: 0.03rem solid #ff9900;
+}
+.ydw-proDel .ydw-proDel-main .product-details {
+  width: 100%;
+  padding: 0 .46rem;
+}
+.ydw-proDel .ydw-proDel-main .product-details img {
+  width: 100%;
+}
+.ydw-proDel .ydw-proDel-main .appraise {
+  width: 100%;
+  border-top: 1px solid #ddd;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-title {
+  padding: 0 .3rem;
+  width: 100%;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-title ul {
+  padding-top: .1rem;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-title ul li {
+  float: left;
+  margin-right: .5rem;
+  margin-bottom: .1rem;
+  width: 1.35rem;
+  height: .5rem;
+  text-align: center;
+  line-height: .5rem;
+  font-size: .24rem;
+  color: #fff;
+  cursor: pointer;
+  background-color: #999;
+  border-radius: .3rem;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-title ul li:nth-child(4n) {
+  margin-right: 0;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-title ul .current {
+  color: #fff;
+  background-color: #ff9900;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-con {
+  width: 100%;
+  color: #999;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-con .appraise-con-list {
+  padding: 0 .3rem .2rem .3rem;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-con .appraise-con-list .appraise-con-list-row1 {
+  width: 100%;
+  height: .62rem;
+  line-height: .62rem;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-con .appraise-con-list .appraise-con-list-row1 .username {
+  float: left;
+  font-size: .24rem;
+  color: #ff9900;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-con .appraise-con-list .appraise-con-list-row1 .appraise-time {
+  float: right;
+  font-size: .18rem;
+  color: #999;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-con .appraise-con-list .appraise-con-list-row2 {
+  width: 100%;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-con .appraise-con-list .appraise-con-list-row2 img {
+  margin-bottom: .1rem;
+  margin-right: .1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-con .appraise-con-list .appraise-user {
+  margin-bottom: .1rem;
+  width: 100%;
+  font-size: .2rem;
+}
+.ydw-proDel .ydw-proDel-main .appraise .appraise-con .appraise-con-list .appraise-seller {
+  padding: .16rem .1rem;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: .1rem;
+  font-size: .18rem;
+  color: #666;
+  line-height: .26rem;
+  font-weight: 500;
+}
+.ydw-proDel .ydw-proDel-footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  width: 7.5rem;
+  height: .97rem;
+  line-height: .97rem;
+  text-align: center;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+.ydw-proDel .ydw-proDel-footer .ydw-proDel-footer-l {
+  margin-left: .3rem;
+  float: left;
+  width: 3rem;
+  height: 100%;
+  font-size: .3rem;
+  color: #666;
+  overflow: hidden;
+}
+.ydw-proDel .ydw-proDel-footer .ydw-proDel-footer-l span {
+  color: #eb2222;
+}
+.ydw-proDel .ydw-proDel-footer .ydw-proDel-footer-r {
+  float: right;
+  height: 100%;
+}
+.ydw-proDel .ydw-proDel-footer .ydw-proDel-footer-r span {
+  float: left;
+  width: 1.98rem;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: .3rem;
+}
+.ydw-proDel .ydw-proDel-footer .ydw-proDel-footer-r span:nth-child(1) {
+  background-color: #ff9900;
+}
+.ydw-proDel .ydw-proDel-footer .ydw-proDel-footer-r span:nth-child(2) {
+  background-color: #eb2222;
+}
+.ydw-proDel .ydw-proDel-shopping-options {
+  position: fixed;
+  top: 0;
+  z-index: 998;
+  bottom: .97rem;
+  width: 100%;
+  max-width: 7.5rem;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con {
+  position: absolute;
+  bottom: .97rem;
+  padding-left: .42rem;
+  width: 100%;
+  background-color: #fff;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-attr {
+  position: relative;
+  width: 100%;
+  height: 2rem;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-attr .shopping-options-attr-img {
+  position: absolute;
+  top: -0.28rem;
+  left: 0;
+  width: 2.16rem;
+  height: 2.16rem;
+  border: .07rem solid #ddd;
+  border-radius: .1rem;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-attr .shopping-options-attr-img img {
+  width: 100%;
+  height: 100%;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-attr .shopping-options-attr-des {
+  position: absolute;
+  top: .6rem;
+  left: 2.38rem;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-attr .shopping-options-attr-des .price {
+  font-size: .3rem;
+  color: #eb2222;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-attr .shopping-options-attr-des .stock,
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-attr .shopping-options-attr-des .attr {
+  font-size: .25rem;
+  color: #333;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-attr .shopping-options-attr-close {
+  position: absolute;
+  top: .3rem;
+  right: .3rem;
+  width: .56rem;
+  height: .56rem;
+  background: url('../img/ydwProDel/close.png') no-repeat;
+  background-size: .56rem .56rem;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-count {
+  margin-top: .12rem;
+  width: 100%;
+  font-size: .3rem;
+  color: #333;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-count .shopping-options-count-l {
+  float: left;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-count .shopping-options-count-r {
+  float: right;
+  margin-right: .4rem;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-count .shopping-options-count-r span {
+  float: left;
+  width: .5rem;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: #999;
+  color: #fff;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-count .shopping-options-count-r .goods-num {
+  float: left;
+  width: 1rem;
+  height: .5rem;
+  border: .02rem solid #ddd;
+  line-height: .5rem;
+  text-align: center;
+  font-size: .3rem;
+  color: #333;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-choose {
+  margin-top: .4rem;
+  width: 100%;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-choose .shopping-options-choose-list {
+  width: 100%;
+  margin-bottom: .45rem;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-choose .shopping-options-choose-list p {
+  font-size: .3rem;
+  color: #333;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-choose .shopping-options-choose-list ul {
+  width: 100%;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-choose .shopping-options-choose-list ul li {
+  float: left;
+  margin-top: .2rem;
+  padding: 0 .45rem;
+  margin-right: .2rem;
+  height: .45rem;
+  line-height: .45rem;
+  font-size: .25rem;
+  color: #999;
+  background-color: #ddd;
+  border-radius: .1rem;
+  cursor: pointer;
+}
+.ydw-proDel .ydw-proDel-shopping-options .shopping-options-con .shopping-options-choose .shopping-options-choose-list ul .current {
+  color: #fff;
+  background-color: #ff9900;
+}

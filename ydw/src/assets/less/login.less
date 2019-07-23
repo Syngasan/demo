@@ -1,0 +1,114 @@
+@charset 'UTF-8';
+
+@mc: #ff9900;
+
+.ydw-login {
+    margin: 0 auto;
+    width: 7.5rem;
+    min-width: 320px;
+    background-color: #fff;
+
+    // 头部
+    .ydw-login-head {
+        position: relative;
+        top: 0;
+        z-index: 99;
+        width: 100%;
+        max-width: 7.5rem;
+        height: .92rem;
+        background-color: @mc;
+        color: #fff;
+
+        .back-l {
+            position: absolute;
+            left: .4rem;
+            top: .26rem;
+            width: .28rem;
+            height: .4rem;
+
+            .back {
+                display: block;
+                width: 100%;
+                height: 100%;
+                background: url(../img/ydwShop/nav_icon_back@2x.png) no-repeat;
+                background-size: .28rem .4rem;
+                color: #fff;
+            }
+        }
+
+        .ydw-login-title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: .42rem;
+        }
+
+        .ydw-login-title-r {
+            position: absolute;
+            right: .28rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: .42rem;
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+    // 主体
+    .ydw-login-main {
+        width: 100%;
+
+        .ydw-login-main-form {
+            position: relative;
+            padding-top: 1.2rem;
+            padding: 1.2rem .74rem 0 .74rem;
+            width: 100%;
+            color: #333;
+
+            .ydw-login-p {
+                width: 100%;
+                height: 1.28rem;
+                line-height: 1.28rem;
+                font-size: .32rem;
+            }
+
+            .login-btn {
+                margin-top: .98rem;
+
+                .next {
+                    width: 100%;
+                    height: 1rem;
+                    background-color: @mc;
+                    outline: none;
+                    border: 1px solid @mc;
+                    border-radius: .1rem;
+                    font-size: .38rem;
+                    color: #fff;
+                }
+            }
+
+            .b-b {
+                border-bottom: 1px solid #8f8f8f;
+            }
+
+            .txt {
+                padding-left: .4rem;
+                width: 4rem;
+                height: .62rem;
+                font-size: .38rem;
+                
+            }
+
+            .forget-psw {
+                position: absolute;
+                bottom: 1.5rem;
+                right: .94rem;
+                font-size: .28rem;
+                color: #666;
+            }
+        }
+    }
+}

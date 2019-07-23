@@ -55,7 +55,7 @@ strong {
 }
 img {
   border: 0;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 h1,
 h2,
@@ -77,4 +77,12 @@ th {
   content: '';
   display: block;
   clear: both;
+}
+.mint-indicator-mask {
+  background-color: #fff;
+  z-index: 999;
+  opacity: 1;
+}
+.mint-indicator-wrapper {
+  z-index: 9999;
 }

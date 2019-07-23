@@ -1,0 +1,163 @@
+@charset 'UTF-8';
+// 主题色
+@mc: #ff9900;
+
+.w {
+    margin: 0 auto;
+    width: 7.14rem;
+}
+body{
+    background-color: #fafafa;
+}
+.ydw-classif {
+    margin: 0 auto;
+    width: 7.5rem;
+    min-width: 320px;
+    height: 100%;
+    // 头部
+    .ydw-head {
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        max-width: 7.5rem;
+        width: 100%;
+        background-color: @mc;
+
+        // 头部顶部
+        .ydw-head-top {
+            height: .92rem;
+            padding-top: .18rem;
+            width: 100%;
+
+
+            .ydw-head-top-search {
+                position: relative;
+                margin: 0 auto;
+                width: 5.16rem;
+                height: .6rem;
+
+
+                .ydw-head-top-search-inp {
+                    display: block;
+                    padding-left: .24rem;
+                    width: 100%;
+                    height: .6rem;
+                    border: 1px solid #ffb648;
+                    border-radius: .14rem;
+                    background-color: #ffe1b5;
+                    font-size: .28rem;
+                    color: #a09e9b;
+                }
+
+                .search-ico {
+                    position: absolute;
+                    top: .1rem;
+                    right: .22rem;
+                    width: .4rem;
+                    height: .4rem;
+                    background: url(../img/ydwIndex/search.png) no-repeat;
+                    background-size: .4rem .4rem;
+                }
+            }
+        }
+
+
+    }
+
+    // 主体
+    .ydw-classif-main {
+        display: flex;
+        padding-top: .92rem;
+        padding-bottom: 1rem;
+        width: 100%;
+        height: 100%;
+
+        // 分类导航
+        .ydw-classif-main-left {
+            width: 2.34rem;
+            background-color: #fafafa;
+            ul {
+                width: 100%;
+
+                .ydw-classif-list {
+                    position: relative;
+                    width: 100%;
+                    height: .94rem;
+                    line-height: .94rem;
+                    text-align: center;
+                    font-size: .28rem;
+                    color: #333;
+                }
+
+                .current {
+                    background-color: #fff;
+                }
+
+                .current::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: .94rem;
+                    width: .08rem;
+                    background-color: #1d84a7;
+                }
+            }
+        }
+
+        // 分类内容
+        .ydw-classif-main-right {
+            width: 5.16rem;
+            padding: .2rem 0 .46rem .2rem;
+            background-color: #fff;
+
+            ul {
+                width: 100%;
+
+                .ydw-classif-pro {
+                    float: left;
+                    margin-right: .2rem;
+                    margin-bottom: .2rem;
+                    width: 2.28rem;
+                    height: 2.38rem;
+                    // border: .02rem solid #1d84a7;
+                    // border-radius: .1rem;
+
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+
+                        .ydw-classif-pro-top {
+                            padding-top: .12rem;
+                            padding-bottom: .06rem;
+
+                            width: 100%;
+                            border: .02rem solid #1d84a7;
+                            border-radius: .1rem .1rem 0 0;
+
+                            img {
+
+                                width: 1.7rem;
+                                height: 1.72rem;
+                            }
+                        }
+
+                        .ydw-classif-pro-bottom {
+
+                            height: .46rem;
+                            line-height: .46rem;
+                            color: #fff;
+                            width: 100%;
+                            background-color: #1d84a7;
+                            font-size: .24rem;
+                            border: .02rem solid #1d84a7;
+                            border-radius: 0 0 .1rem .1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

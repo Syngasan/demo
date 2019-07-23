@@ -3,12 +3,12 @@ body,
 html {
   background-color: #f3f3f3;
 }
-.ydw-preDel {
+.ydw-perCenter {
   margin: 0 auto;
   width: 7.5rem;
   min-width: 320px;
 }
-.ydw-preDel .ydw-preDel-head {
+.ydw-perCenter .ydw-perCenter-head {
   position: relative;
   top: 0;
   z-index: 99;
@@ -18,14 +18,14 @@ html {
   background-color: #ff9900;
   color: #fff;
 }
-.ydw-preDel .ydw-preDel-head .set-l {
+.ydw-perCenter .ydw-perCenter-head .set-l {
   position: absolute;
   left: .4rem;
   top: .2rem;
   width: .5rem;
   height: .5rem;
 }
-.ydw-preDel .ydw-preDel-head .set-l .set {
+.ydw-perCenter .ydw-perCenter-head .set-l .set {
   display: block;
   width: 100%;
   height: 100%;
@@ -33,21 +33,21 @@ html {
   background-size: .5rem .5rem;
   color: #fff;
 }
-.ydw-preDel .ydw-preDel-head .ydw-preDel-title {
+.ydw-perCenter .ydw-perCenter-head .ydw-perCenter-title {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   font-size: .42rem;
 }
-.ydw-preDel .ydw-preDel-head .ydw-preDel-msg-r {
+.ydw-perCenter .ydw-perCenter-head .ydw-perCenter-msg-r {
   position: absolute;
   right: .3rem;
   top: .28rem;
   width: .52rem;
   height: .52rem;
 }
-.ydw-preDel .ydw-preDel-head .ydw-preDel-msg-r .msg {
+.ydw-perCenter .ydw-perCenter-head .ydw-perCenter-msg-r .msg {
   display: block;
   width: 100%;
   height: 100%;
@@ -55,7 +55,7 @@ html {
   background-size: .52rem .52rem;
   color: #fff;
 }
-.ydw-preDel .ydw-preDel-head .ydw-preDel-msg-r .news {
+.ydw-perCenter .ydw-perCenter-head .ydw-perCenter-msg-r .news {
   position: absolute;
   top: -0.16rem;
   right: -0.16rem;
@@ -66,11 +66,11 @@ html {
   background-color: #ff0000;
   color: #fff;
 }
-.ydw-preDel .ydw-preDel-main {
+.ydw-perCenter .ydw-perCenter-main {
   padding-bottom: 2.3rem;
   width: 100%;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-perInfo {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-perInfo {
   position: relative;
   margin-bottom: .14rem;
   width: 100%;
@@ -78,21 +78,21 @@ html {
   color: #333;
   font-size: .32rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-perInfo .yellDiv {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-perInfo .yellDiv {
   width: 100%;
   height: 2.3rem;
   background-color: #ff9900;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-perInfo .per-name {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-perInfo .per-name {
   padding-top: .9rem;
   text-align: center;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-perInfo .collection {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-perInfo .collection {
   margin-top: .43rem;
   padding-left: .26rem;
   padding-bottom: .46rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-perInfo .collection .coll-icon {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-perInfo .collection .coll-icon {
   margin-right: .24rem;
   display: inline-block;
   width: .4rem;
@@ -101,10 +101,10 @@ html {
   background-size: .4rem .4rem;
   vertical-align: top;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-perInfo .collection .coll-title {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-perInfo .collection .coll-title {
   margin-right: .24rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-perInfo .head-img {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-perInfo .head-img {
   position: absolute;
   top: 1rem;
   left: 50%;
@@ -114,55 +114,56 @@ html {
   border: .12rem solid #fff;
   border-radius: 50%;
   overflow: hidden;
+  background-color: #ccc;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-perInfo .head-img img {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-perInfo .head-img img {
   margin-left: -0.1rem;
   width: 110%;
   height: 100%;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order {
   margin-bottom: .12rem;
   width: 100%;
   background-color: #fafafa;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-t {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-t {
   width: 100%;
   height: 1.24rem;
   line-height: 1.24rem;
   border-bottom: 1px solid #b3b3b3;
   font-size: .32rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-t .order-title {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-t .order-title {
   margin-left: .46rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-t .order-all {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-t .order-all {
   margin-left: 2.52rem;
   color: #999;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b {
   padding: .44rem 0;
   display: flex;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b .order-del {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b .order-del {
   position: relative;
   flex: 1;
   text-align: center;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b .order-del a {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b .order-del a {
   display: block;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b .order-del a .order-del-icon {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b .order-del a .order-del-icon {
   display: block;
   margin: 0 auto;
   margin-bottom: .26rem;
   width: .6rem;
   height: .6rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b .order-del a .order-del-title {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b .order-del a .order-del-title {
   font-size: .24rem;
   color: #666;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b .order-del .circle {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b .order-del .circle {
   position: absolute;
   top: -0.2rem;
   right: .2rem;
@@ -176,27 +177,27 @@ html {
   color: #fff;
   font-size: .18rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b .order-del .pay {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b .order-del .pay {
   background: url('../img/ydwDel/icon_boligation.png') no-repeat;
   background-size: .6rem .6rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b .order-del .pay1 {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b .order-del .pay1 {
   background: url('../img/ydwDel/prepare.png') no-repeat;
   background-size: .6rem .6rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b .order-del .pay2 {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b .order-del .pay2 {
   background: url('../img/ydwDel/icon_consignee.png') no-repeat;
   background-size: .6rem .6rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b .order-del .pay3 {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b .order-del .pay3 {
   background: url('../img/ydwDel/icon_evaluate.png') no-repeat;
   background-size: .6rem .6rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-order .ydw-preDel-main-order-b .order-del .pay4 {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-order .ydw-perCenter-main-order-b .order-del .pay4 {
   background: url('../img/ydwDel/icon_refund.png') no-repeat;
   background-size: .6rem .6rem;
 }
-.ydw-preDel .ydw-preDel-main .ydw-preDel-main-address {
+.ydw-perCenter .ydw-perCenter-main .ydw-perCenter-main-address {
   display: block;
   padding-left: .44rem;
   width: 100%;
